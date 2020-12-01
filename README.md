@@ -4,9 +4,12 @@
 
 ### Responsabilidades: 
 
-Registro                                      =>  <span style="color:blue">Juan Felipe</span>\
-Login                                         =>  <span style="color:red">Jesus David De Avila</span>\
-Agregar comentario                            =>  <span style="color:red">Jefry Quejada</span>\
-Agregar Blog                                  =>  <span style="color:red">Yian Carlo Garcia</span>\
-Encabezado(header) y Footer(pie de página)    =>  <span style="color:red">Alexander Soto</span>\
-Elementos contenedores                        =>  <span style="color:blue">Hernan Felipe Londono</span>
+- [x] Registro                                      =>  **Juan Felipe**\
+- [] Login                                         =>  **Jesus David De Avila**\
+- [] Agregar comentario                            =>  **Jefry Quejada**\
+- [] Agregar Blog                                  =>  **Yian Carlo Garcia**\
+- [] Encabezado(header) y Footer(pie de página)    =>  **Alexander Soto**\
+- [x] Elementos contenedores                        =>  **Hernan Felipe Londono**
+
+- [] **UNIR TODO EL TRABAJO ANTES DEL 2 DIC**
+
