@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="./css/content.css">
 </head>
 <body>
     <div class="hf-body">
+        <header class='hf-header'>
+            <div class="hf-header-item left">
+                <img src="./assets/Logo.png" alt="logo"/>
+            </div>
+            <div class="hf-header-item right">
+                <p>ES</p>
+            </div>
+        </header>
         
             <div class="hf-container">
                 <p>
@@ -15,10 +23,35 @@
                     <button class="hf-btn empty">Registrate</button>
                 </div>
             </div>
+            <footer>
+                <div class="hf-footer-content">
+                    <div class="hf-footerrow">
+                        <p>Politica tratamiento de Datos</p>
+                        <p>Terminos y Condiciones</p>
+                    </div>
+                    <p>© 2020</p>
+                </div>
+
+            </footer>
        
     </div>
     <br>
     <!-- Contenido cuando este loggeado -->
+    <header class='hf-header'>
+        <div class="hf-header-item left">
+            <img src="./assets/Logo.png" alt="logo"/>
+        </div>
+        <div class="hf-header-item center">
+            <p class="hf-h">Hola !</p>
+            <p class="hf-name">Jane Doe</p>
+            <form>
+                <input class="hf-text-input" type="text" placeholder="Busca tu blog"/>
+            </form>
+        </div>
+        <div class="hf-header-item right">
+            <p>ES</p>
+        </div>
+    </header>
     <div class="hf-body">
         <div class="hf-categories-container">
             <span>Categorias:</span>
@@ -133,6 +166,57 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="hf-footer-content">
+            <div class="hf-footerrow">
+                <p>Politica tratamiento de Datos</p>
+                <p>Terminos y Condiciones</p>
+            </div>
+            <p>© 2020</p>
+        </div>
+
+    </footer>
+   <!-- Contenido cuando este loggeado -->
+   <div class="hf-login-form">
+       <p class="hf-title">Ingresa</p>
+        <form>
+
+            <div class="hf-input-group">
+                <label>Correo electronico:</label>
+                <input class="hf-text-input bd" type="email" placeholder="Busca tu blog"/>
+            </div>
+            <div class="hf-input-group">
+                <label>Contrasena:</label>
+                <input class="hf-text-input bd" type="password" placeholder="Busca tu blog"/>
+            </div>
+            <p>
+                Olvide mi constrasena
+            </p>
+            <button type="submit" class="hf-btn full control-panel">Ingresar</button>
+        </form>
+   </div>
+    <!-- Recuperar Contrasena -->
+    <div class="hf-login-form">
+        <p class="hf-title">Recuperar Contrasena:</p>
+         <form>
+            <p class="hf-desc">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.             </p>
+             <div class="hf-input-group">
+                 <label>Correo electronico:</label>
+                 <input class="hf-text-input bd" type="email" placeholder="Busca tu blog"/>
+             </div>
+             <button type="submit" class="hf-btn full control-panel">Recuperar</button>
+         </form>
+    </div>
+    <!-- Agregar Comentario -->
+    <div class="hf-comment-form">
+        <p class="hf-title">Comentar:</p>
+         <form>
+                 <textarea class="hf-txtarea" type="text" placeholder="Escribe un comentario" cols="15"></textarea>
+             <button type="submit" class="hf-btn full control-panel">Comentar</button>
+         </form>
+    </div>
+
 </body>
 </html>
 
