@@ -7,7 +7,7 @@
 - [x] Registro                                      =>  **Juan Felipe**
 - [ ] Login                                         =>  **Jesus David De Avila**
 - [ ] Agregar comentario                            =>  **Jefry Quejada**
-- [ ] Agregar Blog                                  =>  **Yian Carlo Garcia**
+- [x] Agregar Blog                                  =>  **Yian Carlo Garcia**
 - [ ] Encabezado(header) y Footer(pie de página)    =>  **Alexander Soto**
 - [x] Elementos contenedores                        =>  **Hernan Felipe Londono**
 
