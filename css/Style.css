@@ -6,6 +6,8 @@
 
 body {
   background: url(../img/img.jpeg);
+  background-repeat: no-repeat0;
+  background-size: cover;
 }
 
 .form-register {
@@ -13,7 +15,8 @@ body {
   background: black;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   border-radius: 5px;
   border: 3px solid black;
   font-family: 'calibri';
